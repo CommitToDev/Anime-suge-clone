@@ -233,3 +233,53 @@ html, body{
     background: transparent;
     padding: 5px 0 0 50px; 
 }
+.backtotop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.backtotop span{
+    color: #2e2e2e;
+}
+.seprator hr{
+   border: 1px solid #252525;
+   margin-top: 14px;
+}
+.footerlist{
+    margin: 15px 256px 0 256px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #ffffff;
+}
+.footerlist a{
+    cursor: pointer;
+}
+.footerlist a:hover{
+    color: #e50914;
+}
+.primay-footer-logo img{
+width: 110px;
+height: 36px;
+margin: 32px;
+}
+.primay-footer-logo{
+    display: flex;
+}
+.primay-footer-logo p{
+    margin: 40px 0 40px -15px;
+    font-size: 12px;
+    color: #5f5f5f;
+}
+.primay-footer{
+    display: flex;
+}
+.footer-description{
+    color: #5f5f5f;
+    font-size: 12px;
+    margin: 40px 0 40px 250px ;
+}
+.footer-p1{
+    padding-left: 475px;
+}
