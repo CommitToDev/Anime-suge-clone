@@ -11,6 +11,7 @@ html, body{
     height: 100%;
     width: 100%;
 }
+/* Header Start*/
 .container {
    
     display: flex;
@@ -58,6 +59,8 @@ html, body{
     height: 29px;
     background-color: #252525;
   }
+  /* header End*/
+  /* Hero Section*/
   .homebanner{
     position: absolute;
 
@@ -117,6 +120,8 @@ html, body{
     background: transparent;
     text-decoration: none;
 }
+/*Hero section End */
+/* Home BTN*/
 .homelinkbtn span{
     color: #ffffff;
     border: 1px solid #5f5f5f;
@@ -132,6 +137,7 @@ html, body{
 .homelinkbtn span:hover{
     background-color: #5f5f5f;
 }
+/* Page description */
 .title{
     color: #ffffff;
     
@@ -148,7 +154,7 @@ html, body{
     margin: 10px 0 0 231px;
     font-size: 14px;
 }
-
+/* share */
 .numberofshare span{
     margin: 26px 0 0 231px;
     position: absolute;
@@ -233,6 +239,7 @@ html, body{
     background: transparent;
     padding: 5px 0 0 50px; 
 }
+/* BacktoTop */
 .backtotop{
     display: flex;
     align-items: center;
@@ -242,10 +249,12 @@ html, body{
 .backtotop span{
     color: #2e2e2e;
 }
+/* seprator */
 .seprator hr{
    border: 1px solid #252525;
    margin-top: 14px;
 }
+/* footer */
 .footerlist{
     margin: 15px 256px 0 256px;
     font-size: 15px;
