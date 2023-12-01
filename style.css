@@ -41,6 +41,11 @@ html, body{
   .navbar a{
     cursor: pointer;
   }
+  .navbar a:hover{
+    text-decoration: underline;
+    text-decoration-color: #e50914 ;
+    text-decoration-thickness: 3px;
+  }
   .lang{
     text-align: center;
     display: flex;
