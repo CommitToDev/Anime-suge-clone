@@ -20,7 +20,7 @@ This project is a simple clone of Animesuge, a website for streaming anime conte
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com//animesuge-clone.git
+   git clone https://github.com//Anime-suge-clone.git
 1.Navigate to the project directory:
 cd animesuge-clone
 
