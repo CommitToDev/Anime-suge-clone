@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Pathway+Extreme:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #161616;
+    font-family: 'Pathway Extreme',sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+/* Header Start*/
+.container {
+   
+    display: flex;
+    justify-content: space-between; 
+  }
+  .logo{
+    margin: 32px;
+  }
+  
+  
+.logo img{
+    cursor: pointer;
+    height: 37px;
+    width: 113px;
+
+}
+.navbar {
+    padding-left: 268px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%; 
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  .navbar a{
+    cursor: pointer;
+  }
+  .navbar a:hover{
+    text-decoration: underline;
+    text-decoration-color: #e50914 ;
+    text-decoration-thickness: 3px;
+  }
+  .lang{
+    text-align: center;
+    display: flex;
+    color: #ffffff;
+    border: 1px solid #000000;
+  }
+  .lang .lang-EN{
+    cursor: pointer;
+    width: 36px;
+    height: 29px;
+    background-color: red;
+  }
+  .lang .lang-JP{
+    cursor: pointer;
+    width: 36px;
+    height: 29px;
+    background-color: #252525;
+  }
+  /* header End*/
+  /* Hero Section*/
+  .homebanner{
+    position: absolute;
+
+  }
+  .homebanner img{
+    margin: 15px;
+    width: 1320px;
+    height: 200px;
+  }
+  .searchbardiv{
+    display: flex;
+  }
+  .searchbar{
+    margin: -45px 0 0 0;
+    border: none;
+    width: 591.63px;
+    height: 58px;
+    outline: none;
+    background-color: #ffffff;
+  }
+ input::placeholder{
+    font-size: 20px;
+  }
+  .searchicon{
+    background-color: #ffffff;
+    margin: -45px 0 0 0;
+     width: 50px;
+     border: none;
+     height: 58px; 
+     margin-left: 328px ;
+   }
+.searchicon i{
+    padding: 12px 0px 0px 45px ;
+    background: transparent;
+}
+.filterbtn span{
+   
+    background-color: #e50914;
+    padding: 5px 10px 5px 10px ;
+    text-align: center;
+    border-radius: 3px;
+    color: #ffffff;
+}
+.filter{
+    margin: -45px 0 0 0;
+    
+    background-color: #ffffff;
+    width: 70px;
+    border: none;
+    height: 58px; 
+    margin-right: 38px ;
+}
+.filterbtn{
+    position: absolute;
+    margin-top: 15px;
+    margin-right: 20px;
+    background: transparent;
+    text-decoration: none;
+}
+/*Hero section End */
+/* Home BTN*/
+.homelinkbtn span{
+    color: #ffffff;
+    border: 1px solid #5f5f5f;
+    padding: 15px;
+  
+
+}
+.homelinkbtn{
+    background-color: transparent;
+    margin-top: 300px ;
+    margin-left: 600px;  
+}
+.homelinkbtn span:hover{
+    background-color: #5f5f5f;
+}
+/* Page description */
+.title{
+    color: #ffffff;
+    
+}
+.title p{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 44px 0 0 231px;
+}
+.paragraph{
+    color: #5f5f5f;
+}
+.paragraph p{
+    margin: 10px 0 0 231px;
+    font-size: 14px;
+}
+/* share */
+.numberofshare span{
+    margin: 26px 0 0 231px;
+    position: absolute;
+    color: #555555;
+    font-size: 16px;
+}
+.share span{
+    margin: 44px 0 0 231px;
+    position: absolute;
+    color: #555555;
+    position: absolute;
+    font-size: 9px;
+}
+.displayshareicon{
+    display: flex;
+    justify-content: space-between;
+}
+.facbook{
+    background-color: #4267b2;
+    margin: 26px 0 0 286px;
+    width: 120px;
+    height: 32px;
+    border-radius: 4px;
+}
+.facbook img{
+    background: transparent;
+    padding: 7px 0 0 50px; 
+}
+.twitter{
+    background-color: #000000;
+    width: 120px;
+    margin: -32px 0 0 418px;
+    height: 32px;
+    border-radius: 4px;
+}
+.twitter img{
+    background: transparent;
+    padding: 3px 0 0 50px; 
+}
+.masenger{
+    background-color: #448aff;
+    width: 120px;
+    margin: -32px 0 0 542px;
+    height: 32px;
+    border-radius: 4px;
+}
+.masenger img{
+    background: transparent;
+    padding: 8px 0 0 50px; 
+}
+.reddit{
+    background-color: #ff4500;
+    width: 120px;
+    margin: -32px 0 0 670px;
+    height: 32px;
+    border-radius: 4px;
+}
+.reddit img{
+    background: transparent;
+    padding: 8px 0 0 50px; 
+}
+.whatsapp{
+    background-color:#25d366;
+    width: 120px;
+    margin: -32px 0 0 798px;
+    height: 32px;
+    border-radius: 4px;
+}
+.whatsapp img{
+    background: transparent;
+    padding: 8px 0 0 50px; 
+}
+.telegram{
+    background-color:#0088cc;
+    width: 120px;
+    margin: -32px 0 0 926px;
+    height: 32px;
+    border-radius: 4px;
+}
+.telegram img{
+    width: 70px;
+    background: transparent;
+    padding: 5px 0 0 50px; 
+}
+/* BacktoTop */
+.backtotop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.backtotop span{
+    color: #2e2e2e;
+}
+/* seprator */
+.seprator hr{
+   border: 1px solid #252525;
+   margin-top: 14px;
+}
+/* footer */
+.footerlist{
+    margin: 15px 256px 0 256px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #ffffff;
+}
+.footerlist a{
+    cursor: pointer;
+}
+.footerlist a:hover{
+    color: #e50914;
+}
+.primay-footer-logo img{
+width: 110px;
+height: 36px;
+margin: 32px;
+}
+.primay-footer-logo{
+    display: flex;
+}
+.primay-footer-logo p{
+    margin: 40px 0 40px -15px;
+    font-size: 12px;
+    color: #5f5f5f;
+}
+.primay-footer{
+    display: flex;
+}
+.footer-description{
+    color: #5f5f5f;
+    font-size: 12px;
+    margin: 40px 0 40px 250px ;
+}
+.footer-p1{
+    padding-left: 475px;
+}
+/* Scroll Bar */
+::-webkit-scrollbar{
+    background-color: transparent;
+    width: 12px;
+}
+::-webkit-scrollbar-thumb{
+    background:#363636;
+}
+/* media quary 
+@media (max-width: 1200px){
+    .navbar a {
+        display: none;
+    }
+    .logo img{
+    margin-left: 570px;
+    }
+    .lang{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .homelinkbtn{
+       margin-top: 19rem;
+       margin-left: 35rem;
+       min-width: 300px
+       
+    }
+    .homelinkbtn span{
+        padding: 10px;
+    }
+    
+    .title p, .paragraph p {
+         
+        text-align: center; 
+        max-width: 80%; 
+    }
+
+    .title p {
+        font-size: 20px; 
+        margin-top: 20px; 
+    }
+
+    .paragraph p {
+        font-size: 16px; 
+    }
+    .backtotop{
+        margin-left: 590px;
+    }
+}
+@media(max-width: 768px){
+    .title p, .paragraph p {
+      
+        text-align: center; 
+        max-width: 80%; 
+    }
+
+    .title p {
+        
+        margin-left: 590px;
+        font-size: 20px; 
+        margin-top: 20px; 
+    }
+
+    .paragraph p {
+        margin-left: 580px;
+        font-size: 16px; 
+    }
+}*/
