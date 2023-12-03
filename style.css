@@ -129,9 +129,9 @@
   .search-list{
     position: absolute;
     right: 0;
-    width: 93vh;
-    height: 14vw;
-    margin: -21.3vw 27.5vw 0 0;
+    width: 53vh;
+    height: 28vw;
+    margin: -21.3vw 47.5vw 0 0;
     top: 100%;
     max-height: 500px;
     overflow-y: scroll;
@@ -158,27 +158,40 @@
     display: -ms-flexbox;
     display: flex;
     color: #ffffff;
-    
-    -webkit-box-align: center;
+   -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
   .search-item-thumbnail img{
-    width: 10vw;
+    width: 7vw;
     height: 17vh;
     margin-right: 1rem;
 }
 .search-item-info h3{
-  font-weight: 600;
-  margin-left: 4vh;
-  font-size: 2vw;
+  font-weight: 700;
+  
+  margin-left: 3vh;
+  font-size: 1.7vw;
 }
 .search-item-info p{
-  font-size: 4vh;
-  margin-left: 4vh;
+  font-size: 3vh;
+  margin-left: 3vh;
   margin-top: 0.5rem;
   font-weight: 600;
   opacity: 0.6;
+}
+
+.search-list::-webkit-scrollbar{
+  width: 8px;
+}
+.search-list::-webkit-scrollbar-track{
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+.search-list::-webkit-scrollbar-thumb{
+  background-color: #e50914;
+  outline: none;
+  border-radius: 10px;
 }
 .hide-search-list{
    display: none;
