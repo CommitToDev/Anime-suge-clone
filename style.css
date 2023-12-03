@@ -125,6 +125,64 @@
   text-align: center;
   color: #ffffff;
   }
+  /* search list */
+  .search-list{
+    position: absolute;
+    right: 0;
+    width: 93vh;
+    height: 14vw;
+    margin: -21.3vw 27.5vw 0 0;
+    top: 100%;
+    max-height: 500px;
+    overflow-y: scroll;
+    z-index: 10;
+  }
+
+  .search-list .search-list-item{
+    background-color:transparent;
+    padding: 0.5rem;
+  
+    border-bottom: 1px solid #161616;
+ 
+  
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: background-color 200ms ease;
+    -o-transition: background-color 200ms ease;
+    transition: background-color 200ms ease;
+}
+
+
+  .search-list-item{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #ffffff;
+    
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .search-item-thumbnail img{
+    width: 10vw;
+    height: 17vh;
+    margin-right: 1rem;
+}
+.search-item-info h3{
+  font-weight: 600;
+  margin-left: 4vh;
+  font-size: 2vw;
+}
+.search-item-info p{
+  font-size: 4vh;
+  margin-left: 4vh;
+  margin-top: 0.5rem;
+  font-weight: 600;
+  opacity: 0.6;
+}
+.hide-search-list{
+   display: none;
+}
   /* Home BTN*/
   .homelinkbtn span{
   color: #ffffff;
